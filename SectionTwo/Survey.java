@@ -18,12 +18,12 @@ double foodPrice = scanner.nextDouble();
 counter++;
 
 
-System.out.println("How much money do you spend on coffee?");
+System.out.println("\nHow much money do you spend on coffee?");
 int coffeeAmount=scanner.nextInt();
 counter++;
 
 
-System.out.println("How much money do you spend on food?");
+System.out.println("\nHow much money do you spend on food?");
 int foodAmount=scanner.nextInt();
 counter++;
 
