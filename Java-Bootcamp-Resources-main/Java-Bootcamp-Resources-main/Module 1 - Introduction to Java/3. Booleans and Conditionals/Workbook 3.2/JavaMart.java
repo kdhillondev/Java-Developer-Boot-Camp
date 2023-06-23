@@ -7,6 +7,13 @@ public class JavaMart {
  
         double toyCar = 5.99;
         System.out.println("Can I get this car?");
+        if(toyCar<=wallet){
+            System.out.println("Sure\npay for the toy car");
+            wallet-=toyCar;
+        }
+        else{
+            System.out.println("Sorry, I only have "+wallet);
+        }
        
         //if you have enough money
             //       print: Sure!
@@ -17,6 +24,12 @@ public class JavaMart {
         
         double nike = 95.99;
         System.out.println("Can I get these nike shoes?");
+        if(wallet>=nike){
+            System.out.println("Sure!\npay for the nike shoes");
+            wallet-=nike;
+        }else{
+            System.out.println("Sorry, I only have "+wallet);
+        }
         //if you have enough money
             //       print: Sure!
             //       pay for the nike shoes 
