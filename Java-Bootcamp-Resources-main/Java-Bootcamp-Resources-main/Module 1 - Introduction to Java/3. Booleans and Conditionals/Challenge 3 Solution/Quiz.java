@@ -32,7 +32,7 @@ public class Quiz {
         if (answer3.equals("d")) {
             score += 5;
         }
-        if (answer4.equals("a") || answer4.equals("b")) {
+        if (answer4.equals("a") || answer4.equals("c")) {
             score += 5;
         }
 
