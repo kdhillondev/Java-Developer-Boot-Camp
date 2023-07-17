@@ -1,8 +1,7 @@
 public class ReturnValues{
     public static void main(String[] args){
         double area=calculateArea(2.3, 3.6);
-        double area2=calculateArea(1.6, 2.6);
-        double area3=calculateArea(2.6, 4.2);
+        printArea(2.3, 3.6,area);
 
         String englishexplanation=explainArea("English");
         String frenchexplanation=explainArea("french");
