@@ -8,10 +8,17 @@ public class ReturnValues{
         String frenchexplanation=explainArea("french");
         String spanishexplanation=explainArea("spanish");
 
+        calculateArea(-5, 2.3);
 
     }
 
     public static double calculateArea(double length, double width){
+      if(length<0 || width<0){
+        System.out.println("invalid dimensions");
+       //System.exit() method exits current program by terminating running Java virtual machine. This method takes a status code. A non-zero value of status code is generally used to indicate abnormal termination. 
+        System.exit(0);
+      }
+      
         double area=length*width;
         return area;
     }
@@ -25,6 +32,10 @@ public class ReturnValues{
             default: return "language not available";
         }
 
+    }
+
+    public static void printArea(double l, double w, double a){
+System.out.println("A rectangle with a length of "+l+" and a width of "+w+" has an area of "+a);
     }
 }
 

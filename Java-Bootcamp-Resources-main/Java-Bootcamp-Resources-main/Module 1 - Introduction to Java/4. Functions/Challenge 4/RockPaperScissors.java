@@ -11,8 +11,11 @@ public class RockPaperScissors {
 
     //Task 1: See if the user wants to play. 
 
-    /*Task 2: Set up the game
+    String userInput=scan.nextLine();
     
+
+    /*Task 2: Set up the game
+
 
        • if the answer is yes: 
              – print: Great!
