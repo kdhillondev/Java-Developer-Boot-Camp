@@ -1,13 +1,13 @@
 public class Scope {
     
     // Global variables to store the rectangle's length and width (accessible within the whole class)
-    // static double length = 2;
-    // static double width = 4;
+      static double length = 2;
+      static double width = 4;
 
     public static void main(String[] args) {
 
-        double length = 2;
-        double width = 4;
+      // double length = 2;
+      //  double width = 4;
 
         calculateArea(length, width);
         calculatePerimeter(length, width);
