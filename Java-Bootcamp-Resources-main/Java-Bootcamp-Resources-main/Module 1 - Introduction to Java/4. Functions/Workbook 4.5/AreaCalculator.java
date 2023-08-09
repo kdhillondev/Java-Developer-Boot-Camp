@@ -132,10 +132,10 @@ return area;
      */
 
      public static void printAreas(){
-        areaSquare(1);
-        areaRectangle(2, 3);
-        areaTriangle(4, 5);
-        areaCircle(6);
+        System.out.println(areaSquare(1));
+        System.out.println(areaRectangle(0, 0));
+        System.out.println(areaTriangle(4, 5));
+        System.out.println(        areaCircle(6));
      }
 
 

@@ -43,7 +43,7 @@ upperCase.toLowerCase();
          */
         String programming = "Java programming";
         // Write your code here
-       System.out.println(programming.startsWith("J", 0));
+       System.out.println(programming.startsWith("J"));
 
 
 
@@ -58,7 +58,8 @@ upperCase.toLowerCase();
         String original = "Java is fun!";
         // Write your code here
 
-        
+        String replace=original.replace('a', 'A');
+        System.out.println(replace);
         /**
          * Scenario 6
          * 
@@ -69,6 +70,8 @@ upperCase.toLowerCase();
         
         double number = 9;
         // Write your code here
+        double square= Math.sqrt(number);
+        System.out.println(square);
 
 
         /**
@@ -83,6 +86,7 @@ upperCase.toLowerCase();
         double exponent = 3;
         // Write your code here
 
+        double math=Math.pow(base, exponent);
 
         /**
          * Scenario 8
@@ -91,6 +95,8 @@ upperCase.toLowerCase();
          * @return randomNumber (double)
          */
         // Write your code here
+        double random=Math.random();
+
 
 
 
@@ -105,7 +111,7 @@ upperCase.toLowerCase();
         int number1 = 5;
         int number2 = 10;
         // Write your code here
-
+int max=Math.max(number1, number2);
 
     }
 }
