@@ -10,13 +10,20 @@ public class Grocer {
         String[] store = {"apples", "bananas", "candy", "chocolate", "coffee", "tea"};
         System.out.println("\nWelcome to Java Grocers. ");
         System.out.println("What can I help you find?\n");
-        
+        String userInput=scan.nextLine();
+        boolean foundItem=false;
         for (int i = 0; i < store.length; i++) {
             
-            // Task 2 here
-            System.out.println("\nWe have that in aisle: <index>");
+           if(userInput.equalsIgnoreCase(store[i])){
+            System.out.println("\nWe have that in aisle: "+i);
+            foundItem=true;
+
+           }
 
 
+        }
+        if(!foundItem){
+            System.out.println("Sorry we do not have that item for sale");
         }
         
         scan.close();
